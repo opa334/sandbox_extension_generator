@@ -9,12 +9,12 @@
 #import "arm_neon.h"
 #import "SandboxSPI.h"
 #import <CommonCrypto/CommonDigest.h>
-#include <mach/mach.h>
-#include <mach-o/dyld.h>
-#include <mach-o/getsect.h>
-#include <mach-o/loader.h>
-#include <mach-o/nlist.h>
-#include <mach-o/reloc.h>
+#import <mach/mach.h>
+#import <mach-o/dyld.h>
+#import <mach-o/getsect.h>
+#import <mach-o/loader.h>
+#import <mach-o/nlist.h>
+#import <mach-o/reloc.h>
 
 #define ROOT_RW_EXTENSION ";00;00000000;00000000;00000000;0000000000000020;com.apple.app-sandbox.read-write;01;01000007;0000000000000002;01;/"
 
