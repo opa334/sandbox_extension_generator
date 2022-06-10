@@ -6,9 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "KernelManager.h"
-#import "headers/arm_neon.h"
-#import "headers/SandboxSPI.h"
+#import "arm_neon.h"
+#import "SandboxSPI.h"
 #import <CommonCrypto/CommonDigest.h>
 #include <mach/mach.h>
 #include <mach-o/dyld.h>
